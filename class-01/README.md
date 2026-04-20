@@ -6,13 +6,19 @@ In this class we will be covering some new topics and reviewing concepts you sho
 
 We will spend some time reviewing the concepts from the prework. We will also discuss several new topics: Vite and component-based architecture.
 
-## Class Outline
+## Class 01 Outline
 
-- Overview of 301
+
 - Review of prework
-- Discussion of Vite
+- Warm up
+- Reading 01
+- Demo
+  - for vs forEach
+  - React Components
 - Discussion of component-based architecture
-- Introduction to code challenges
+- Code Challenge
+  - Array methods
+    - for + forEach
 - Introduction of code challenge topic
 - Lab prep
 
@@ -25,8 +31,6 @@ We will spend some time reviewing the concepts from the prework. We will also di
 - Component-based architecture
 - React
 - Vite
-- JavaScript classes
-- Arrow functions
 - Gain an understanding of scope with arrow functions
 - Gain an understanding of context, scope, "this", and the "new" keyword
 - Gain an understanding of the core concepts of React and how to create a basic React application
@@ -88,7 +92,7 @@ We will spend some time reviewing the concepts from the prework. We will also di
    bob.speak();
    ```
 
-1. Basic React Component Structure:
+2. Basic React Component Structure:
 
    ```javascript
    import React from 'react';
