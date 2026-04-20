@@ -6,6 +6,16 @@ In this class we will be covering some new topics and reviewing concepts you sho
 
 We will spend some time learning about classes and arrow functions.  Most of the time today will be used to complete prep assignments.
 
+# `The Classroom`
+
+## Expectations
+
+- Prep-work
+- 90% overall grade is required to pass this course
+- 90% attendance required.
+- No assignments in project week
+- Instructor approval required
+
 ## 301 Orientation Prep Class Outline
 
 - Overview of 301
@@ -20,8 +30,6 @@ We will spend some time learning about classes and arrow functions.  Most of the
 
 #### Describe and Define
 
-- React
-- Vite
 - JavaScript classes
 - Arrow functions
 - Gain an understanding of scope with arrow functions
