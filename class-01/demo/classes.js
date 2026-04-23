@@ -1,40 +1,40 @@
 'use strict';
 
 /************************************
- ES6 CLASSES DEMO FILE
+ ES6 CLASSES 
 ************************************/
 
 // =============================
 // STEP 1: Constructor Function (OLD WAY)
 // =============================
 
-// function Animal(name, legs) {
-//   this.name = name;
-//   this.legs = legs;
-// }
+function Animal(name, legs) {
+  this.name = name;
+  this.legs = legs;
+}
 
-// Animal.prototype.walk = function() {
-//   this.isWalking = true;
-// };
+Animal.prototype.walk = function() {
+  this.isWalking = true;
+};
 
-// let oldDog = new Animal('Rex', 4);
-// oldDog.walk();
-// console.log('Old way:', oldDog);
+let oldDog = new Animal('Rex', 4);
+oldDog.walk();
+console.log('Old way:', oldDog);
 
 
 // =============================
 // STEP 2: Inheritance (OLD WAY - COMPLEX)
 // =============================
 
-// function Dog(name, legs) {
-//   Animal.call(this, name, legs);
-// }
+function Dog(name, legs) {
+  Animal.call(this, name, legs);
+}
 
-// Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype = Object.create(Animal.prototype);
 
-// let oldDog2 = new Dog('Buddy', 4);
-// oldDog2.walk();
-// console.log('Old inheritance:', oldDog2);
+let oldDog2 = new Dog('Buddy', 4);
+oldDog2.walk();
+console.log('Old inheritance:', oldDog2);
 
 
 // =============================
