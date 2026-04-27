@@ -6,12 +6,21 @@ In the last class, you learned how to pass information from a parent component i
 
 ## Class Outline
 
+- Reading 03
+  - Disucssion
 - Warm-up exercise
 - Review code challenges
 - Introduction of the code challenge topic
+ - `.filter()`
 - Code review of lab assignment
 - Code Demo
+  - Pass functions as props
 - Lab Preview
+- Classwork 
+  - Lab work 
+  - Career: Stage Friedght
+  - Retro 3
+  - Review 3
 
 ## Learning Objectives
 

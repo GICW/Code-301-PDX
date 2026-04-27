@@ -6,13 +6,25 @@ This class will focus on passing information as `props` from a parent component 
 
 ## Class Outline
 
+- Reading 02
+  - Disucssion
 - Warm-up exercise
 - Review code challenges
+  - Check installation with GitBash
+  - Connecting Ubuntu to GitHub
 - Introduction of the code challenge topic
-- Code review of lab assignment
+  - array.map()
+- Code review of lab 01 assignment
 - Code Demo
-- Bootstrap
-- Lab Preview
+  - Beast-State
+  - Array Method
+    - `array.map()`
+- Introducing Bootstrap
+- Lab Preview & Prep
+- Classwork 
+  - Lab work 
+  - Career: Networking Opportunities
+  - Retro 2
 
 ## Learning Objectives
 
@@ -40,23 +52,23 @@ This class will focus on passing information as `props` from a parent component 
 
 1. What is state?
 
-1. What are props?
+2. What are props?
 
-1. To Update State: `this.setState({ thingInState: thingToUpdate })`
+3. To Update State: `this.setState({ thingInState: thingToUpdate })`
 
-1. To send something in props to a child component: `<ChildComponent bananas='randomString' />`
+4. To send something in props to a child component: `<ChildComponent bananas='randomString' />`
 
-1. To access that variable in the props from the child component: `this.props.bananas`
+5. To access that variable in the props from the child component: `this.props.bananas`
 
-1. Information flows in one direction. That direction is ______________.
+6. Information flows in one direction. That direction is ______________.
 
-1. What is Bootstrap?
+7. What is Bootstrap?
 
-1. What are different things that I can customize using Bootstrap?
+8. What are different things that I can customize using Bootstrap?
 
-1. How does Bootstrap use classes for customization?
+9. How does Bootstrap use classes for customization?
 
-1. Holding state in a parent component and sending it into a child component:
+10. Holding state in a parent component and sending it into a child component:
 
   ```javaScript
   import React from 'react';

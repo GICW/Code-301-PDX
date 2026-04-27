@@ -16,10 +16,10 @@ We will spend some time reviewing the concepts from the prework. We will also di
   - for vs forEach
   - React Components
 - Discussion of component-based architecture
-- Code Challenge
-  - Array methods
-    - for + forEach
 - Introduction of code challenge topic
+  - Code Challenge
+    - Array methods
+      - `for` + `forEach`
 - Lab prep
 
 ## Learning Objectives
@@ -43,9 +43,9 @@ We will spend some time reviewing the concepts from the prework. We will also di
 ## Notes
 
 1. What is React?
-1. What are components?
-1. What is the difference between an arrow function and a function declaration?
-1. Turning a function declaration into an arrow function:
+2. What are components?
+3. What is the difference between an arrow function and a function declaration?
+4. Turning a function declaration into an arrow function:
 
    ```javascript
    function doSomething(name) {
