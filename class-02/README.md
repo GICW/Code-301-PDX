@@ -23,7 +23,7 @@ This class will focus on passing information as `props` from a parent component 
 - Lab Preview & Prep
 - Classwork 
   - Lab work 
-  - Career: Networking Opportunities
+  - Career: Stage Fright
   - Retro 2
 
 ## Learning Objectives
