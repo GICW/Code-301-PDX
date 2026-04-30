@@ -7,7 +7,7 @@ function Counter(props) {
   // ===============================
 
   // Uncomment for basic state demo
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   // ===============================
   // STEP 2 — STATE FROM PROPS

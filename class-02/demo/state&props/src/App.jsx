@@ -18,7 +18,7 @@ function App() {
   // ===============================
 
   // Uncomment later during lesson
-  // const startValue = 5;
+  const startValue = 5;
 
   return (
     <div>
@@ -29,28 +29,28 @@ function App() {
       =============================== */}
 
       {/* Uncomment to show props */}
-      {/* 
+      
       <UserProfile 
         name={user.name} 
         bio={user.bio} 
       />
-      */}
+     
 
       {/* ===============================
           STEP 2 — STATE DEMO
       =============================== */}
 
       {/* Uncomment to show state */}
-      {/* <Counter /> */}
+      <Counter />
 
       {/* ===============================
           STEP 3 — COMBINED DEMO
       =============================== */}
 
       {/* Uncomment for combined example */}
-      {/*
+      
       <Counter start={startValue} />
-      */}
+     
 
     </div>
   );

@@ -25,8 +25,6 @@ const nums = [1, 2, 3, 4, 5, 6, 7];
 // 👉 Simple array of numbers
 // We will use this to demonstrate transformations
 
-
-
 // --------------------------------
 // OLD WAY: Using a for loop
 // --------------------------------
