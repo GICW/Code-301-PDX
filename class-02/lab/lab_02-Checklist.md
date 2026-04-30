@@ -4,12 +4,12 @@
 
 ## 🧩 SETUP (Before You Start)
 
-- [ ] App runs without errors (`npm run dev`)
-- [ ] All components exist:
+- [ x ] App runs without errors (`npm run dev`)
+- [ x ] All components exist:
   - [ ] App.jsx
   - [ ] Gallery.jsx
   - [ ] HornedBeast.jsx
-- [ ] React Bootstrap is installed and imported
+- [ x ] React Bootstrap is installed and imported
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 📥 1. Import & Pass Data
 
-- [ ] Import `data.json` into `App.jsx`
+- [ x ] Import `data.json` into `App.jsx`
 - [ ] Store data in a variable or state
 - [ ] Pass data to `Gallery` as props
 

@@ -12,7 +12,7 @@
 
 ## ✅ PROJECT STRUCTURE
 
-- [ ] My `App.jsx` imports:
+- [x ] My `App.jsx` imports:
   - [ ] `Header`
   - [ ] `Gallery`
   - [ ] `Footer`
