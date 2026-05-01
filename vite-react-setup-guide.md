@@ -174,7 +174,7 @@ git commit -m "Initial commit"
 - Click **New Repository**
 - Name it (same as your project)
 - Click **Create repository**
-- ⚠️ Do NOT add a README
+- ⚠️ Do NOT add a README or **ANY OTHER FILE**
 
 ---
 
@@ -232,8 +232,8 @@ git remote set-url origin NEW_URL
 
 ## 💡 Final Tip
 
-Always run:
+**Always run:**
 ```bash
 ls
 ```
-before working to confirm you're in the correct folder.
+before working *to confirm you're in the correct folder*.
