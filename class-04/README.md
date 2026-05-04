@@ -7,10 +7,20 @@ In this class we will cover how React handles `forms` and the asynchronous natur
 ## Class Outline
 
 - Warm-up exercise
+- Reading 4
+  - Discussion 
 - Review code challenges
-- Introduction of the code challenge topic, `.sort()`
-- Code Demo
-- Lab Preview
+  - `map()`
+  - `forEach`
+  - `filter`
+- Introduction of the code challenge topic, `spread`
+- Demo
+  - React forms
+  - `spread` operator
+- Lab Preview & Prep
+- Classwork
+  - Lab 4
+  - Retro #4
 
 ## Learning Objectives
 

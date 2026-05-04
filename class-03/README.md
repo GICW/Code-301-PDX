@@ -10,17 +10,20 @@ In the last class, you learned how to pass information from a parent component i
   - Disucssion
 - Warm-up exercise
 - Review code challenges
+  - `map()`
+  - `forEach`
 - Introduction of the code challenge topic
- - `.filter()`
+  - `.filter()`
 - Code review of lab assignment
 - Code Demo
   - Pass functions as props
+  - `.filter()`
 - Lab Preview
 - Classwork 
   - Lab work 
   - Career: Stage Friedght
-  - Retro 3
-  - Review 3
+  - Retro #3
+  - Review Quiz #1
 
 ## Learning Objectives
 
