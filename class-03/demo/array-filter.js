@@ -11,9 +11,9 @@
 // It keeps items where the condition is TRUE
 
 // Syntax:
-array.filter((item) => {
-  return condition;
-});
+// array.filter((item) => {
+//   return condition;
+// });
 
 
 /**************************************************
@@ -42,26 +42,26 @@ Even numbers: [2,4,6]
  * STEP 3 — SIMPLER VERSION (ARROW FUNCTION)
  **************************************************/
 
-// const evensShort = nums.filter(num => !(num % 2));
-// console.log('Evens (short version):', evensShort);
+const evensShort = nums.filter(num => !(num % 2));
+console.log('Evens (short version):', evensShort);
 
 
 /**************************************************
  * STEP 4 — FILTER OBJECTS
  **************************************************/
 
-// const people = [
-//   { name: 'John', role: 'Dad' },
-//   { name: 'Cathy', role: 'Mom' },
-//   { name: 'Zach', role: 'Kid' },
-//   { name: 'Allie', role: 'Kid' },
-// ];
+const people = [
+  { name: 'John', role: 'Dad' },
+  { name: 'Cathy', role: 'Mom' },
+  { name: 'Zach', role: 'Kid' },
+  { name: 'Allie', role: 'Kid' },
+];
 
 // Keep only parents (NOT kids)
-// const parents = people.filter(person => person.role !== 'Kid');
+const parents = people.filter(person => person.role !== 'Kid');
 
-// console.log('All people:', people);
-// console.log('Parents only:', parents);
+console.log('All people:', people);
+console.log('Parents only:', parents);
 
 /*
 EXPECTED OUTPUT:
@@ -87,11 +87,11 @@ Parents only:
  * STEP 6 — COMMON MISTAKE (NO RETURN)
  **************************************************/
 
-// const test = nums.filter((num) => {
-//   // no return statement!
-// });
+const test = nums.filter((num) => {
+  // no return statement!
+});
 
-// console.log('No return result:', test);
+console.log('No return result:', test);
 
 /*
 EXPECTED OUTPUT:
@@ -105,16 +105,16 @@ Why? Because nothing returned TRUE
  **************************************************/
 
 // Get numbers greater than 3
-// const greaterThanThree = nums.filter(num => num > 3);
-// console.log('> 3:', greaterThanThree);
+const greaterThanThree = nums.filter(num => num > 3);
+console.log('> 3:', greaterThanThree);
 
 // Get only kids
-// const kids = people.filter(person => person.role === 'Kid');
-// console.log('Kids:', kids);
+const kids = people.filter(person => person.role === 'Kid');
+console.log('Kids:', kids);
 
 // Get names starting with 'A'
-// const namesStartingWithA = people.filter(person => person.name.startsWith('A'));
-// console.log('Names starting with A:', namesStartingWithA);
+const namesStartingWithA = people.filter(person => person.name.startsWith('A'));
+console.log('Names starting with A:', namesStartingWithA);
 
 
 /**************************************************

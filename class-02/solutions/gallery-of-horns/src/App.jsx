@@ -6,6 +6,7 @@ import Header from './Header';
 import Gallery from './Gallery';
 import Footer from './Footer';
 import Container from 'react-bootstrap/Container';
+import data from "./data.json"
 
 function App() {
   return (

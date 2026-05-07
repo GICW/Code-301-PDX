@@ -20,16 +20,16 @@
 ## 📥 1. Import & Pass Data
 
 - [ x ] Import `data.json` into `App.jsx`
-- [ ] Store data in a variable or state
-- [ ] Pass data to `Gallery` as props
+- [ x ] Store data in a variable or state
+- [ x ] Pass data to `Gallery` as props
 
 ---
 
 ## 🔁 2. Render All Beasts
 
-- [ ] Use `.map()` in `Gallery.jsx`
-- [ ] Render a `HornedBeast` for each item
-- [ ] Pass props (title, image, description)
+- [ x ] Use `.map()` in `Gallery.jsx`
+- [ x ] Render a `HornedBeast` for each item
+- [ x ] Pass props (title, image, description)
 
 ---
 

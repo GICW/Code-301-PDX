@@ -17,10 +17,7 @@ function Header() {
 
   return (
     <div onClick={(changeColor)}>
-      {colorSwitch ?
-        <h1 className="purpleHeader">🤘 Gallery of Horns 🤘</h1>
-        :
-        <h1 className="blueHeader">🤘 Gallery of Horns 🤘</h1>
+      {colorSwitch ? <h1 className="purpleHeader">🤘 Gallery of Horns 🤘</h1> : <h1 className="blueHeader">🤘 Gallery of Horns 🤘</h1>
       }
     </div>
   );
