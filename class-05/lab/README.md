@@ -2,7 +2,7 @@
 
 ## Overview
 
-Get ready to take a look at a full-featured code base! You have just started a new job and the employer wants you to demonstrate your skills by building a portfolio using React.  This should highlight your knowledge of the React library and your ability to explore a new codebase.  [The starter template](https://www.npmjs.com/package/cra-template-react-portfolio){:target="_blank"} for this class contains a complete React + Bootstrap site with example pages, icons, styles, and a themed layouts. Your job is to customize this code by following the specifications in the Trello board.
+Get ready to take a look at a full-featured code base! You have just started a new job and the employer wants you to demonstrate your skills by building a portfolio using React.  This should highlight your knowledge of the React library and your ability to explore a new codebase.  [The starter template](https://github.com/QILINXIE02/ReactPortfolio-template){:target="_blank"} for this class contains a complete React + Bootstrap site with example pages, icons, styles, and a themed layouts. Your job is to customize this code by following the specifications in the Trello board.
 
 You will be deploying your React portfolio to [Netlify](https://www.netlify.com/){:target="_blank"}.
 

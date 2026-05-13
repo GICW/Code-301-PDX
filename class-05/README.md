@@ -4,12 +4,30 @@
 
 For this class we will use the skills we learned during the last module to build a new application: city explorer! Your lab will be to take React starter code and turn it into a beautiful portfolio.
 
-## Class Outline
+## Class 5 Outline
 
 - Warm-up exercise
+- Reading 5
+  - Discussion 
+- Review code challenges *(if needed)*
+  - `map()`
+  - `forEach`
+  - `filter`
+  - spread operator `...`
 - Introduction of the code challenge topic
-- Build City Explorer (React)
-- Lab Preview
+  - Object Interation
+- Demo
+  - City Explorer
+  - Object Interation 
+  - Portfolio Deployment
+- Lab Preview & Prep
+  - Portfolio Deployment 
+- Classwork
+  - Code Challenge #5
+  - Lab 5
+    - Portfolio styling
+    - Add content
+    - Deploy to Netlify
 
 ## Learning Objectives
 
