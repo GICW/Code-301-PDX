@@ -8,7 +8,7 @@ For this class we will use the skills we learned during the last module to build
 
 - Warm-up exercise
 - Reading 5
-  - Discussion 
+  - Discussion
 - Review code challenges *(if needed)*
   - `map()`
   - `forEach`
@@ -18,10 +18,10 @@ For this class we will use the skills we learned during the last module to build
   - Object Interation
 - Demo
   - City Explorer
-  - Object Interation 
+  - Object Interation
   - Portfolio Deployment
 - Lab Preview & Prep
-  - Portfolio Deployment 
+  - Portfolio Deployment
 - Classwork
   - Code Challenge #5
   - Lab 5
