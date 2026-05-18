@@ -32,7 +32,7 @@ npm create vite@latest
 
 **Project name**
 ```
-gallery-of-horns
+my-react-project
 ```
 
 **Framework**
@@ -50,7 +50,7 @@ JavaScript
 ## 📂 Step 3 — Move into Your Project
 
 ```bash
-cd gallery-of-horns
+cd my-react-project
 ```
 
 ---
