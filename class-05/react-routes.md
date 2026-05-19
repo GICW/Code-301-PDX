@@ -1,6 +1,6 @@
 # React Routes with `react-router-dom`
 
-# 🎯 Learning Goals
+## 🎯 Learning Goals
 
 By the end of this lesson, students should understand:
 
@@ -16,17 +16,17 @@ By the end of this lesson, students should understand:
 
 ---
 
-# 🧠 What is Routing?
+## 🧠 What is Routing?
 
 Routing is:
 > Showing different content based on the URL.
 
 ---
 
-# 🌐 Example URLs
+## 🌐 Example URLs
 
 | URL | Page Shown |
-|---|---|
+| --- | --- |
 | `/` | Home Page |
 | `/about` | About Page |
 | `/contact` | Contact Page |
@@ -35,12 +35,12 @@ When the URL changes, React Router decides which component to display.
 
 ---
 
-# 🧩 Analogy
+## 🧩 Analogy
 
 Think of routing like TV channels.
 
-| Channel | Content |
-|---|---|
+| **Channel** | **Content** |
+
 | ESPN | Sports |
 | Discovery | Science |
 | Cartoon Network | Cartoons |
@@ -48,14 +48,16 @@ Think of routing like TV channels.
 Changing the channel changes the content.
 
 In React:
+
 - the URL is the channel
 - the component is the content
 
 ---
 
-# ❓ Why Do We Use Routing?
+## ❓ Why Do We Use Routing?
 
 Most websites need:
+
 - multiple pages
 - navigation
 - browser history
@@ -66,20 +68,22 @@ Routing helps organize applications into separate views or pages.
 
 ---
 
-# ⚡ React Router vs Traditional Websites
+## ⚡ React Router vs Traditional Websites
 
-# Traditional Website
+### Traditional Website
 
 When clicking a link:
+
 1. Browser requests a NEW page
 2. Server sends HTML
 3. Page fully reloads
 
 ---
 
-# React Router
+## React Router
 
 When clicking a link:
+
 1. URL changes
 2. React swaps components
 3. Page does NOT fully reload
@@ -88,19 +92,20 @@ This creates a faster user experience.
 
 ---
 
-# 🧠 Important Concept
+## 🧠 Important Concept
 
 React applications using routing are often called:
 
-# Single Page Applications (SPAs)
+## Single Page Applications (SPAs)
 
 Meaning:
+
 - one HTML page
 - content changes dynamically
 
 ---
 
-# 📦 Installing React Router
+### 📦 Installing React Router
 
 ```bash
 npm install react-router-dom
@@ -108,9 +113,9 @@ npm install react-router-dom
 
 ---
 
-# 🚦 Main React Router Components
+## 🚦 Main React Router Components
 
-# 1️⃣ `<BrowserRouter>`
+## 1️⃣ `<BrowserRouter>`
 
 ## Purpose
 
@@ -130,9 +135,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 ---
 
-# 🧠 What It Does
+## 🧠 What It Does
 
 `<BrowserRouter>`:
+
 - watches the URL
 - tracks navigation
 - updates components
@@ -140,23 +146,24 @@ import { BrowserRouter } from 'react-router-dom';
 
 ---
 
-# ⚠️ Important
+## ⚠️ Important
 
 Usually placed in:
+
 - `main.jsx`
 - `index.js`
 
 ---
 
-# 2️⃣ `<Routes>`
+## 2️⃣ `<Routes>`
 
-## Purpose
+### Purpose of `<Routes>`
 
 Holds all Route components.
 
 ---
 
-## Example
+### `<Routes>` Example
 
 ```jsx
 <Routes>
@@ -167,18 +174,20 @@ Holds all Route components.
 
 ---
 
-# 🧠 What It Does
+## `<Routes>` What It Does
 
 `<Routes>`:
+
 - checks the current URL
 - finds matching routes
 - renders the correct component
 
 ---
 
-# IMPORTANT
+### IMPORTANT
 
 In React Router v6:
+
 ```plaintext
 Routes replaced Switch
 ```
@@ -187,15 +196,15 @@ from older versions.
 
 ---
 
-# 3️⃣ `<Route>`
+## 3️⃣ `<Route>`
 
-## Purpose
+### Purpose of `<Route>`
 
 Connects a URL path to a component.
 
 ---
 
-## Example
+### Example `<Route>`
 
 ```jsx
 <Route
@@ -206,21 +215,23 @@ Connects a URL path to a component.
 
 ---
 
-# 🧠 What This Means
+## 🧠 What This Means
 
 If the URL is:
+
 ```plaintext
 /about
 ```
 
 React renders:
+
 ```jsx
 <About />
 ```
 
 ---
 
-# 🧩 Think of It Like:
+## 🧩 Think of It Like
 
 ```plaintext
 IF URL matches
@@ -229,15 +240,15 @@ THEN render component
 
 ---
 
-# 4️⃣ `<Link>`
+## 4️⃣ `<Link>`
 
-## Purpose
+### Purpose`<Link>`
 
 Used for navigation between pages.
 
 ---
 
-## Example
+### `<Link>` Example
 
 ```jsx
 <Link to="/about">About</Link>
@@ -245,23 +256,26 @@ Used for navigation between pages.
 
 ---
 
-# 🧠 What Happens
+## 🧠 What Is Happening
 
 When clicked:
+
 - URL changes
 - component changes
 - page does NOT refresh
 
 ---
 
-# ⚠️ IMPORTANT
+## ⚠️ IMPORTANT
 
 Use:
+
 ```jsx
 <Link>
 ```
 
 instead of:
+
 ```html
 <a>
 ```
@@ -270,18 +284,19 @@ inside React apps.
 
 ---
 
-# ❌ Why Not Use `<a>` Tags?
+## ❌ Why Not Use `<a>` Tags?
 
 Regular `<a>` tags:
+
 - refresh the page
 - restart the application
 - lose React state
 
 ---
 
-# ✅ Full Example
+## ✅ Full Example
 
-# `main.jsx`
+### `main.jsx`
 
 ```jsx
 import React from 'react';
@@ -302,7 +317,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 ---
 
-# `App.jsx`
+## `App.jsx`
 
 ```jsx
 import {
@@ -358,147 +373,159 @@ export default App;
 
 ---
 
-# 🔄 What Happens During Navigation?
+## 🔄 What Happens During Navigation?
 
 ## Step-by-Step
 
-### User clicks:
+### User clicks
+
 ```plaintext
 About
 ```
 
 ---
 
-### URL changes:
+### URL changes
+
 ```plaintext
 /about
 ```
 
 ---
 
-### React Router checks:
+### React Router checks
+
 ```jsx
 <Route path="/about" />
 ```
 
 ---
 
-### Matching component renders:
+### Matching component renders
+
 ```jsx
 <About />
 ```
 
 ---
 
-# 🌐 Frontend vs Backend Routing
+## 🌐 Frontend vs Backend Routing
 
-| Backend Routing | React Routing |
-|---|---|
+| **Backend Routing** | **React Routing** |
+
 | Server handles routes | Browser handles routes |
 | Full page reload | Dynamic component rendering |
 | Returns HTML pages | Returns React components |
 
 ---
 
-# ⚠️ Common Beginner Mistakes
+## ⚠️ Common Beginner Mistakes
 
-# ❌ Forgetting `<BrowserRouter>`
+### ❌ Forgetting `<BrowserRouter>`
 
 Result:
+
 ```plaintext
 Routes will not work
 ```
 
 ---
 
-# ❌ Using `<a>` Instead of `<Link>`
+### ❌ Using `<a>` Instead of `<Link>`
 
 Result:
+
 ```plaintext
 Page refreshes completely
 ```
 
 ---
 
-# ❌ Wrong Route Path
+### ❌ Wrong Route Path
 
 Result:
+
 ```plaintext
 Component never appears
 ```
 
 ---
 
-# ❌ Forgetting `element={}`
+### ❌ Forgetting `element={}`
 
 Result:
+
 ```plaintext
 Route errors
 ```
 
 ---
 
-# 🧠 Key Takeaways
+### 🧠 Key Takeaways
 
-## Students Should Understand:
+## Students Should Understand
 
 ### `<BrowserRouter>`
+
 Enables routing.
 
 ---
 
 ### `<Routes>`
+
 Holds all routes.
 
 ---
 
 ### `<Route>`
+
 Matches URLs to components.
 
 ---
 
 ### `<Link>`
+
 Navigates without refreshing.
 
 ---
 
-### React Router
+### React Route
+
 Creates fast Single Page Applications.
 
 ---
 
-# 🧪 Check-In Questions
+## 🧪 Check-In Questions
 
-## 1️⃣ What is routing?
-
----
-
-## 2️⃣ Which component enables routing?
+### 1️⃣ What is routing?
 
 ---
 
-## 3️⃣ What does `<Route>` do?
+### 2️⃣ Which component enables routing?
 
 ---
 
-## 4️⃣ Why should React apps use `<Link>` instead of `<a>`?
+### 3️⃣ What does `<Route>` do?
 
 ---
 
-## 5️⃣ What is a Single Page Application?
+### 4️⃣ Why should React apps use `<Link>` instead of `<a>`?
 
 ---
 
-# 💡 Final Tip
+### 5️⃣ What is a Single Page Application?
+
+---
+
+## 💡 Final Tip
 
 Routing is one of the MOST important concepts in React because nearly every modern web application uses it.
 
 Examples include:
+
 - portfolios
 - social media apps
 - dashboards
 - e-commerce sites
 - blogs
 - admin panels
-
-```
