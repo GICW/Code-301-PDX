@@ -1,8 +1,9 @@
 # ✅ React Portfolio Lab Checklist
 
-# 🎯 Lab Goal
+## 🎯 Lab Goal
 
 Build and deploy a professional React portfolio application using:
+
 - React
 - Bootstrap
 - Component structure
@@ -13,18 +14,20 @@ Students should customize the starter portfolio template and complete all requir
 
 ---
 
-# 🧠 Before You Start
+## 🧠 Before You Start
 
-## ✅ Setup Checklist
+### ✅ Setup Checklist
 
-### Trello Setup
+#### Trello Setup
+
 - [ ] Create a Trello account
 
 ---
 
-### Project Setup
+#### Project Setup
+
 - [ ] Use the template from the assignment
-  - [ ]  [The starter template](https://github.com/QILINXIE02/ReactPortfolio-template){:target="_blank"}
+  - [ ] [The starter template](https://github.com/QILINXIE02/ReactPortfolio-template){:target="_blank"}
 - [ ] Clone your repository locally --> **SSH**
   - [ ] projects --> coures --> **301** --> *PLACE HERE!*
 - [ ] Install dependencies with:
@@ -35,10 +38,11 @@ npm install
 
 - [ ] Start the development server:
 
-```bash 
-npm start 
+```bash
+npm start
 ```
-**NOTE:**
+
+**NOTE**
 For this lab use *"npm start"* since we are NOT using Vite.
 
 OR (*if using Vite*)
@@ -51,11 +55,12 @@ npm run dev
 
 ---
 
-# ✅ Core Lab Requirements
+## ✅ Core Lab Requirements
 
-# 1️⃣ Customize the Portfolio
+### 1️⃣ Customize the Portfolio
 
-## Student Must:
+#### Portfolio customization requirements
+
 - [ ] Replace placeholder content with personal information
 - [ ] Add your own:
   - [ ] Name
@@ -69,9 +74,10 @@ npm run dev
 
 ---
 
-# 2️⃣ React Component Structure
+### 2️⃣ React Component Structure
 
-## Student Must:
+#### Component structure requirements
+
 - [ ] Use reusable React components
 - [ ] Keep components organized
 - [ ] Properly import/export components
@@ -79,9 +85,10 @@ npm run dev
 
 ---
 
-# 3️⃣ Navigation / Routing
+### 3️⃣ Navigation / Routing
 
-## Student Must:
+#### Navigation requirements
+
 - [ ] Use `react-router-dom`
 - [ ] Implement working page navigation
 - [ ] Ensure links navigate correctly
@@ -89,9 +96,10 @@ npm run dev
 
 ---
 
-# 4️⃣ Responsive Design
+### 4️⃣ Responsive Design
 
-## Student Must:
+#### Responsive design requirements
+
 - [ ] Ensure layout works on:
   - [ ] Desktop
   - [ ] Tablet
@@ -101,9 +109,10 @@ npm run dev
 
 ---
 
-# 5️⃣ Styling & UI
+### 5️⃣ Styling & UI
 
-## Student Must:
+#### Styling and UI requirements
+
 - [ ] Use Bootstrap components and layout utilities
 - [ ] Maintain consistent spacing and alignment
 - [ ] Ensure text is readable
@@ -112,9 +121,10 @@ npm run dev
 
 ---
 
-# 6️⃣ Accessibility
+### 6️⃣ Accessibility
 
-## Student Must:
+#### Accessibility requirements
+
 - [ ] Run Lighthouse Accessibility Audit
 - [ ] Achieve score of:
   - [ ] 65 or higher
@@ -125,10 +135,11 @@ npm run dev
 
 ---
 
-# 7️⃣ Git & GitHub Workflow
+### 7️⃣ Git & GitHub Workflow
 
-## Student Must:
-- [ ] Create a feature branch 
+#### Git workflow requirements
+
+- [ ] Create a feature branch
   - [ ] *NOTE:* **ONE branch is probably enough to add missing info**
 - [ ] Commit work regularly
 - [ ] Push commits to GitHub
@@ -137,30 +148,33 @@ npm run dev
 
 ---
 
-# 8️⃣ Netlify Deployment
+### 8️⃣ Netlify Deployment
 
-## Student Must:
+#### Deployment requirements
+
 - [ ] Connect repository to Netlify
 - [ ] Deploy application successfully
 - [ ] Verify deployment works live
 - [ ] Ensure latest changes are published
-
 - [ ] ***IMPORTANT:*** **Ask Instructor for assistance if you run into any trouble with deployment or have questions**
+
 ---
 
-# 9️⃣ Final Submission Requirements
+### 9️⃣ Final Submission Requirements
 
-## Canvas Submission Must Include:
+#### Canvas submission requirements
 
 - [ ] Link to Pull Request (PR)
 - [ ] Link to deployed Netlify site
 - [ ] A question related to the lab
 - [ ] Time spent on the assignment
+
 **NOTE**
-Until Canvas is back up, email me these links with the subject line: "Lab-5 Portfolio".  Thank you.
+Until Canvas is back up, email me these links with the subject line: "Lab-5 Portfolio". Thank you.
+
 ---
 
-# ⏱️ Time Tracking Template
+## ⏱️ Time Tracking Template
 
 ```md
 Number and name of feature: ________________________________
@@ -176,9 +190,9 @@ Actual time needed to complete: _____
 
 ---
 
-# 🚨 Common Mistakes Checklist
+### 🚨 Common Mistakes Checklist
 
-## BEFORE SUBMITTING:
+#### BEFORE SUBMITTING
 
 - [ ] App builds without errors
 - [ ] No broken imports
@@ -192,12 +206,12 @@ Actual time needed to complete: _____
 
 ---
 
-# 🧠 Final Success Checklist
+## 🧠 Final Success Checklist
 
-## A successful lab should have:
+### A successful lab should have
 
 | Requirement | Completed |
-|---|---|
+| --- | --- |
 | Customized Portfolio | ⬜ |
 | Working Navigation | ⬜ |
 | Responsive Layout | ⬜ |
@@ -209,13 +223,12 @@ Actual time needed to complete: _____
 
 ---
 
-# ✅ Final Reminder
+## ✅ Final Reminder
 
 Before submitting:
+
 1. Test your deployed site
 2. Check all navigation links
 3. Verify your latest changes are live
 4. Double-check your PR link
 5. Make sure your Trello board is public
-
-```
