@@ -6,13 +6,26 @@ For this class we will explore third party APIs and how to request data from the
 
 ## Class Outline
 
-- Warm-up exercise
-- Review code challenges
+- Reading 5
+  - Discussion
+- Review code challenges *(if needed)*
+  - `map()`
+  - `forEach`
+  - `filter`
+  - spread operator `...`
+  - object interation
 - Introduction of the code challenge topic
+  - `reduce`
 - Code review of previous lab assignment
-- Third Party APIs, `async` and `await`
+  -Portfolio
 - Code Demo
-- Lab Preview
+  - Third Party APIs, `async` and `await`
+  - .reduce()
+- Lab Preview & Prep
+  - Lab 6
+    - ✅ Create a working city search using the LocationIQ API
+    - ✅ Properly store and use the API key with a .env file
+    - ✅ Deploy the finished app successfully to Netlify
 
 ## Learning Objectives
 

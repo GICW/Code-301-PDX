@@ -8,7 +8,7 @@ It allows you to make a decision and return one of two values in a single line o
 
 ---
 
-# 🧠 Why is it Called “Ternary”?
+## 🧠 Why is it Called “Ternary”?
 
 The word **ternary** means:
 > “made up of three parts”
@@ -21,7 +21,7 @@ A ternary statement has **3 parts**:
 
 ---
 
-# ✅ Basic Syntax
+## ✅ Basic Syntax
 
 ```javascript
 condition ? valueIfTrue : valueIfFalse;
@@ -29,10 +29,11 @@ condition ? valueIfTrue : valueIfFalse;
 
 ---
 
-# 🧩 Structure Breakdown
+## 🧩 Structure Breakdown
 
 | Part | Meaning |
-|---|---|
+|------|---------|
+
 | `condition` | The expression being checked |
 | `?` | Separates the condition from the true result |
 | `valueIfTrue` | Returned if condition is true |
@@ -41,7 +42,7 @@ condition ? valueIfTrue : valueIfFalse;
 
 ---
 
-# 🧪 Traditional `if/else`
+## 🧪 Traditional `if/else`
 
 ```javascript
 if(conditionIsTrue){
@@ -53,7 +54,7 @@ if(conditionIsTrue){
 
 ---
 
-# ⚡ Same Logic Using a Ternary
+## ⚡ Same Logic Using a Ternary
 
 ```javascript
 return conditionIsTrue ? 'it is true' : 'it is false';
@@ -61,18 +62,20 @@ return conditionIsTrue ? 'it is true' : 'it is false';
 
 ---
 
-# 🧠 How It Works
+## 🧠 How It Works
 
 ## Step-by-Step
 
-### JavaScript checks:
+### JavaScript checks
+
 ```javascript
 conditionIsTrue
 ```
 
 ---
 
-### If TRUE:
+### If TRUE
+
 ```javascript
 'it is true'
 ```
@@ -81,7 +84,8 @@ is returned.
 
 ---
 
-### If FALSE:
+### If FALSE
+
 ```javascript
 'it is false'
 ```
@@ -90,7 +94,7 @@ is returned.
 
 ---
 
-# ✅ Example 1 — Age Check
+## ✅ Example 1 — Age Check
 
 ## Traditional `if/else`
 
@@ -116,26 +120,29 @@ console.log(age >= 18 ? 'Adult' : 'Minor');
 
 ---
 
-# 🧠 Explanation
+## 🧠 Explanation
 
-### Condition:
+### Condition
+
 ```javascript
 age >= 18
 ```
 
 If true:
+
 ```javascript
 'Adult'
 ```
 
 If false:
+
 ```javascript
 'Minor'
 ```
 
 ---
 
-# ✅ Example 2 — Login Status
+## ✅ Example 2 — Login Status
 
 ```javascript
 let loggedIn = true;
@@ -149,26 +156,29 @@ console.log(message);
 
 ---
 
-# 🧠 Explanation
+## 🧠 Quick Explanation
 
 If:
+
 ```javascript
 loggedIn === true
 ```
 
 The user sees:
+
 ```javascript
 Welcome back!
 ```
 
 Otherwise:
+
 ```javascript
 Please log in
 ```
 
 ---
 
-# ✅ Example 3 — React Conditional Rendering
+## ✅ Example 3 — React Conditional Rendering
 
 Ternary operators are VERY common in React.
 
@@ -191,9 +201,10 @@ function App() {
 
 ---
 
-# 🧠 Why React Uses Ternaries Often
+## 🧠 Why React Uses Ternaries Often
 
 Ternaries are useful for:
+
 - conditional rendering
 - showing/hiding UI
 - displaying loading messages
@@ -202,16 +213,17 @@ Ternaries are useful for:
 
 ---
 
-# ⚠️ Important Notes
+## ⚠️ Important Notes
 
-## Ternaries are BEST for:
+### Ternaries are BEST for
+
 ✅ Short conditions  
 ✅ Simple decisions  
 ✅ Returning values quickly  
 
 ---
 
-## Avoid VERY large ternaries like this:
+## Avoid VERY large ternaries like this
 
 ```javascript
 condition
@@ -227,7 +239,7 @@ These become difficult to read.
 
 ---
 
-# 💡 Tip
+## 💡 Tip
 
 If the logic becomes complicated:
 ✅ use `if/else` instead.
@@ -236,21 +248,23 @@ Readable code is better than shorter code.
 
 ---
 
-# 🧠 Quick Comparison
+## 🧠 Quick Comparison
 
 | `if/else` | Ternary |
-|---|---|
+|-----------|---------|
+
 | More readable for complex logic | Cleaner for simple conditions |
 | Multiple lines | Usually one line |
 | Better for large conditions | Better for quick decisions |
 
 ---
 
-# ✅ Key Takeaways
+## ✅ Key Takeaways
 
-## Students Should Understand:
+## Students Should Understand
 
-### A ternary operator:
+### A ternary operator
+
 - is shorthand for `if/else`
 - checks a condition
 - returns one of two values
@@ -266,6 +280,7 @@ condition ? trueValue : falseValue;
 ---
 
 ## Common Use Cases
+
 - React conditional rendering
 - Displaying messages
 - Login checks
@@ -274,11 +289,11 @@ condition ? trueValue : falseValue;
 
 ---
 
-# 🧪 Practice Challenge
+## 🧪 Practice Challenge
 
 Convert these `if/else` statements into ternary statements:
 
-## Challenge 1
+### Challenge 1
 
 ```javascript
 if(score >= 70){
@@ -290,7 +305,7 @@ if(score >= 70){
 
 ---
 
-## Challenge 2
+### Challenge 2
 
 ```javascript
 if(isDarkMode){
@@ -298,6 +313,3 @@ if(isDarkMode){
 } else {
   console.log('Light Theme');
 }
-```
-
-```
