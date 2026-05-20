@@ -4,7 +4,7 @@
 
 For this class we will explore third party APIs and how to request data from them.
 
-## Class Outline
+## Class 6 Outline
 
 - Reading 5
   - Discussion
