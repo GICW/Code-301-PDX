@@ -23,10 +23,12 @@
 - [ ] Code Challenge #6: `reduce`
   - All other challges (CC: 1-5 forEach, map, filter, ...spread, & object iteration) must be completed
   - Send PR limk
+  - [ ] Reading 05
+  - Link to reading notes repo
 
 ### Prepare for Class 7
 
-> Tuesday May 28, 2026 
+> Tuesday May 28, 2026
 
 - [ ] Reading 7 + Q&A
   - add to reading_notes repo

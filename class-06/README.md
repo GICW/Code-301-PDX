@@ -6,7 +6,7 @@ For this class we will explore third party APIs and how to request data from the
 
 ## Class 6 Outline
 
-- Reading 5
+- Reading 6
   - Discussion
 - Review code challenges *(if needed)*
   - `map()`

@@ -1,4 +1,4 @@
-# Classes 5 & 6
+# Classes 4 & 5
 
 ## Due Date
 
@@ -24,6 +24,8 @@
 - [ ] Code Challenge #5: `object iteration`
   - All other challges (CC: 1-4 forEach, map, filter, & ...spread) must be completed
   - Send PR limk
+- [ ] Reading 05
+  - Link to reading notes repo
 
 ### Prepare for Class 6
 
