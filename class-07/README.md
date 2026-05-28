@@ -4,16 +4,23 @@
 
 In this class we will build our own custom Express server in Node.js. We will server our front end static files and dive more deeply into the WRRC.
 
-## Class Outline
+## Class 7 Outline
 
-- Warm-up exercise
-- Review code challenges
-- Introduction of the code challenge topic
+### Part I
+
+- Reading 07
 - Code review of lab assignment
 - Functional programming concepts
 - Express Servers
 - Code Demo
-- Lab Preview
+- Lab Preview & Prep
+
+### Part II
+
+- Review of previous code challenge #6
+- Introduction of new code challenge topic
+  - sort()
+- Review + Q&A
 
 ## Learning Objectives
 
