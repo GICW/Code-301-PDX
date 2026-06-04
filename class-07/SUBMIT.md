@@ -20,11 +20,11 @@
 
 ## Class 7 Assignments/Homework
 
-- [ ] Lab 6- City Explorer
+- [ ] Lab 7- City Explorer
   - Send repo link
 - [ ] Code Challenge #7: `sort()`
   - All other challges (CC: 1-5 forEach, map, filter, ...spread, reduce, & object iteration) must be completed
-  - Send PR limk
+  - Send PR link
 **For Next Class**
 - [ ] Reading 08
   - Link to reading notes repo
