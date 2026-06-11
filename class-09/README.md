@@ -8,14 +8,19 @@ For this class we will dive a little bit deeper into Express and higher level pr
 - Functional Programming
 - Modularization
 
-## Class Outline
+## Class 9 Outline
 
 - Warm-up exercise
-- Review code challenges
+- Reading 9
+- Demo
+  - Variable vs. Reference
+  - Promises & Async/Await
+- Debugging Practice
 - Introduction of the code challenge topic
-- Code review of lab assignment
-- Code Demo
-- Lab Preview
+  - Variables vs. Reference
+- Disucss Labs 7 & 8
+- Lab 9 Preview
+  - Refactoring
 
 ## Learning Objectives
 
@@ -79,7 +84,7 @@ For this class we will dive a little bit deeper into Express and higher level pr
   module.exports = doSomething
   ```
 
-  - OR, it can be written like this
+- OR, it can be written like this
 
   ```javaScript
   module.exports = () => {
@@ -108,13 +113,13 @@ For this class we will dive a little bit deeper into Express and higher level pr
   }
   ```
 
-  - to access a function from the object above in the server, we would...
+- to access a function from the object above in the server, we would...
 
-  ```javaScript
-  const doesStuffObject = require('./path-to-doesStuffObject');
+```javaScript
+const doesStuffObject = require('./path-to-doesStuffObject');
 
-  doesStuffObject.doSomething();
-  doesStuffObject.doSomethingElse();
-  ```
+doesStuffObject.doSomething();
+doesStuffObject.doSomethingElse();
+```
 
-  1. List of resources to help with lab or if I want to know more:
+1. List of resources to help with lab or if I want to know more:

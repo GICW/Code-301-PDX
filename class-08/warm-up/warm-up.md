@@ -4,7 +4,7 @@ Read through this code as if you are the interpreter. Find each of the mistakes 
 
 ## app.js
 
-```
+```js
 import Header from './header.js';
 
 class App extends React.Component {
@@ -33,7 +33,7 @@ export App;
 
 ## header.js
 
-```
+```js
 class Header extends React.Component {
   render(){
     <h1>{title}</h1>

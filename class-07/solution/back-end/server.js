@@ -1,16 +1,18 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const weather = require('./assets/weather.json');
+const weather = require('./assets/weather.json'); // importing in fake weather data from a json file
 
 const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
+// Weather Endpoint
 app.get('/weather', handleWeather);
-app.use('*', (request, response) => response.status(404).send('page not found'));
+app.use('/', (request, response) => response.status(404).send('page not found'));
 
+//Helper functions
 function handleWeather(request, response) {
   let { searchQuery } = request.query;
 
@@ -30,6 +32,7 @@ function Forecast(day) {
   this.description = day.weather.description
 }
 
+// Error Handler
 function errorHandler(error, response) {
   console.log(error);
   response.status(500).send('something went wrong');

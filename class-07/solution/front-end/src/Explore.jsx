@@ -22,19 +22,19 @@ function Explore() {
   const [location, setLocation] = useState('');
   const [longitude, setLongitude] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
-  const [weather, setWeather] = useState([]);
+  const [weather, setWeather] = useState([]); // setting up state to hold weather data
 
   const updateCity = (e) => {
     setSearchQuery(e.target.value);
   };
 
   const displayLocation = async () => {
-    const url = `https://us1.locationiq.com/v1/search.php?key=${API_KEY}&q=${searchQuery}&format=json`;
+    const url = `https://us1.locationiq.com/v1/search.php?key=${API_KEY}&q=${searchQuery}&format=json`; // this is the url for the locationiq api, we are passing in our api key, the search query and asking for json data back
 
     let location;
     try {
       location = await axios.get(url);
-
+      // State calls to update the location, latitude and longitude state with the data we got back from the api, and to display the map and hide any error messages
       setLocation(location.data[0].display_name);
       setLatitude(location.data[0].lat);
       setLongitude(location.data[0].lon);
@@ -65,7 +65,7 @@ function Explore() {
     <Container fluid>
       <Row>
         <Col>
-          <CitySearch
+         < CitySearch
             updateCity={updateCity}
             displayLocation={displayLocation}
             hasError={displayError}
