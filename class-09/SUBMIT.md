@@ -29,16 +29,16 @@
 ## Class 9 Assignments/Homework
 
 - [ ] Lab 9- City Explorer
-  - Refactor
+  - Refactoring
   - Send repo link
 - [ ] Code Challenge #8: `variables vs reference`
   - All other challges All other challges (CC: 1-8 forEach, map, filter, ...spread, reduce, sort, ,object iteration, & join/split/slice/splice) must be completed
   - Send PR link
 **For Next Class**
-- [ ] Reading 010
+- [ ] Reading 10
   - Link to reading notes repo
 
-### Prepare for Class 8
+### Prepare for Class 10
 
 > Tuesday June 16, 2026
 
