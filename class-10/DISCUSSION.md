@@ -27,10 +27,20 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 - [JavaScript errors reference on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors){:target="_blank"}
 
-<!-- ### Videos
+### Key Terms to Remember
 
-PLACEHOLDER
+***Call***
+- Running a function
 
-### Bookmark and Review
+***Call Stack***
+- The list of functions currently being executed
 
-PLACEHOLDER -->
+***LIFO***
+- Last In, First Out
+
+***Stack Overflow***
+- Too many function calls fill the stack
+
+***Reference Error***
+- Using something that doesn't exist
+

@@ -4,13 +4,19 @@
 
 During this class we will talk about in-memory storage as well as dive deeper into modularization and refactorization.
 
-## Class Outline
+## Class 9 Outline
 
 - Warm-up exercise
-- Review code challenges
-- Code review of lab assignment
-- In-memory persistence
-- Lab Overview
+- Reading 10
+- Demo
+  - cache API requests
+  - 2D Arrays
+- Introduction of the code challenge topic
+  - nested for loops
+- Disucss Labs 7, 8, & 9
+- Lab 10 Preview
+  - caching API requests 
+  - Modularize
 
 ## Learning Objectives
 
