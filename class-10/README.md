@@ -15,7 +15,7 @@ During this class we will talk about in-memory storage as well as dive deeper in
   - nested for loops
 - Disucss Labs 7, 8, & 9
 - Lab 10 Preview
-  - caching API requests 
+  - caching API requests
   - Modularize
 
 ## Learning Objectives
