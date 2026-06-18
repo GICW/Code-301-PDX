@@ -30,17 +30,21 @@ Review the Submission Instructions for guidance on completing and submitting thi
 ### Key Terms to Remember
 
 ***Call***
+
 - Running a function
 
 ***Call Stack***
+
 - The list of functions currently being executed
 
 ***LIFO***
+
 - Last In, First Out
 
 ***Stack Overflow***
+
 - Too many function calls fill the stack
 
 ***Reference Error***
-- Using something that doesn't exist
 
+- Using something that doesn't exist
