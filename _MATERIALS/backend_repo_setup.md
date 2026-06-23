@@ -17,12 +17,6 @@ By the end of this guide, you will:
 
 **Open your Ubuntu terminal.**
 
-You can use:
-
-```bash
-Ctrl + Alt + T
-```
-
 ---
 
 # Step 2: Navigate to Your Projects Folder
