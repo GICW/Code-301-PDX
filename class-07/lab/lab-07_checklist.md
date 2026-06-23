@@ -19,7 +19,7 @@ We are building a custom backend assistant (an API server) that takes a city nam
 
 - [ ] Install the required code packages:
 
-npm install express dotenv cors
+npm install express dotenv cors axios
 
 - [ ] Manually create the following empty files and folders in your project root:
   

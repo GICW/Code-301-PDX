@@ -1,7 +1,5 @@
 # Overview
 
-During this class we will talk about in-memory storage as well as dive deeper into modularization and refactorization.
-
 ## REVIEW Class Outline
 
 - Warm-up exercise
