@@ -6,13 +6,22 @@ In this class, we will focus on the `C` and the `D` of the `CRUD`:`CREATE` and `
 
 ## Class Outline
 
-- Warm-up exercise
-- Review code challenges
+- Reading 12
+  - Discussion
+- Review code challenges (if needed)
 - Introduction of the code challenge topic
+  - Chaining
 - Code review of lab assignment
+  - Repo setup
+  - book schema
+  - create a /book route
 - Creating a resource
+  - POST
 - Code Demo
+  - Add POST
+  - Add DELETE
 - Lab Preview
+  - Begin implementing CRUD
 
 ## Learning Objectives
 
