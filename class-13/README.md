@@ -10,12 +10,17 @@ In this class we do the final step in full CRUD functionality for our database. 
 
 ## Class Outline
 
-- Warm-up exercise
-- Review code challenges
+- Reading 13
+- Review code challenges (if needed)
 - Code review of lab assignment
-- Updating Resources
-- Code demo
-- Lab preview
+  - Lab 12
+    - Adding CREATE & POST
+- Updating Resources --> PUT
+- Demo
+  - Add PUT to an app to update a resource
+- Lab 13 preview
+  - Cans of Books
+    - Add PUT to app to update a book
 
 ## Learning Objectives
 
