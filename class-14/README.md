@@ -12,8 +12,8 @@ The exam is open book, open Google, open Stack Overflow, whatever resources you 
 ## Class Outline
 
 - Discussion on diversity, inclusion, equity, and belonging in the tech industry
-- Final exam prep
-- Exam administered
+- Fix the broken server.js file
+- Work 
 
 ## Learning Objectives
 
