@@ -11,9 +11,12 @@ The exam is open book, open Google, open Stack Overflow, whatever resources you 
 
 ## Class Outline
 
-- Discussion on diversity, inclusion, equity, and belonging in the tech industry
+- Reading Assignment
+  - Discussion on diversity, inclusion, equity, and belonging in the tech industry
 - Fix the broken server.js file
-- Work 
+- Work on unfinished assignments
+  - Labs
+  - Code Challenges
 
 ## Learning Objectives
 
